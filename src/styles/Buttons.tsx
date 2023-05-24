@@ -143,6 +143,16 @@ export const Button = styled("button", {
             color: "$socialLinkedin",
           },
         },
+        ["&.Whatsapp"]: {
+          backgroundColor: "$socialWhatsapp",
+          borderColor: "$socialWhatsapp",
+          color: "$whiteFixed",
+          "&:hover": {
+            backgroundColor: "transparent",
+            borderColor: "$socialWhatsapp",
+            color: "$socialWhatsapp",
+          },
+        },
         "&:hover": {
           backgroundColor: "$grey5",
         },

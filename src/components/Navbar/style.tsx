@@ -1,6 +1,7 @@
 import { styled } from "@/styles/stitches.config";
 import { Flex, Container } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
+import logoImg from "@/public/static/img/logo/logo.png"
 
 export const Navbar = styled("nav", {
   background: "$grey0",
@@ -34,6 +35,10 @@ export const LogoTipoText = styled("span", {
   "@mobile": {
     fontSize: "1rem",
   },
+});
+
+export const LogoTipoImg = styled("img", {
+  height: '40px',
 });
 
 export const NavbarLinks = styled(Flex, {
